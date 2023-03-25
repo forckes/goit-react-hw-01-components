@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import FriendCard from 'Components/FriendCard/FriendCard';
-
 import css from './FriendList.module.css';
-import { friends } from 'data';
 
 export default function FriendList({ friends }) {
   return (

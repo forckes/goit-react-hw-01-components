@@ -1,0 +1,20 @@
+.tr {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #fff;
+}
+.td {
+  width: 100%;
+  padding: 12px;
+  border-right: 1px solid #fff;
+  font-size: 20px;
+  color: #63686e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+.tr:nth-child(even) {
+  background-color: #ecf1f4;
+}

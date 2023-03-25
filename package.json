@@ -18,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build --public-url /goit-react-hw-01-components/",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:js": "eslint ."
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
   }
 }
